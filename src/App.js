@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import LivePortal from "./components/LivePortal";
 import WorkContainer from "./components/WorkContainer";
 import HomePage from "./components/Homepage";
+import Contact from "./components/Contact";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/" exact component={HomePage} />
           <Route path="/liveportal" component={LivePortal} />
           <Route path="/workcontainer" component={WorkContainer} />
+          <Route path="/contact" component={Contact} />
         </Switch>
       </div>
     </Router>
